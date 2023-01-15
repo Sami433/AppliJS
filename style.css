@@ -1,0 +1,67 @@
+body{
+
+    background-color:rgb(189,183,107);
+}
+
+header h1{
+font-family:"Nagoya";
+font-weight: 800;
+font-size:3em;
+text-align: center;
+margin-bottom: 3rem;;
+
+
+}
+
+section{
+
+padding: 2rem 0;
+
+
+}
+
+section .container {
+
+width: 100%;
+max-width: 900px;
+margin: 0 auto;
+
+}
+
+section p{
+
+font-size: 0.8rem;
+line-height: 1.5rem;
+word-spacing: 0.1em;
+letter-spacing: 0.05em;
+
+}
+
+
+.loader {
+ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #484848;
+    font-size: 60px;
+    font-family:"Nagoya";
+    letter-spacing: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation: flash 2.5s linear infinite;
+}
+@keyframes flash {
+    0% {
+        color: #f2f074;
+        text-shadow: 0 0 7px #fff900;
+    }
+ 
+    100% {
+        color: #c5c35b;
+        text-shadow: 0 0 7px #7e7d20;
+    }
+}
+
+
+
